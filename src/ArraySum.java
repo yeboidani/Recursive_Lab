@@ -5,5 +5,6 @@ public class ArraySum {
         if(index < 0)return 0;
 
         return a[index] + sumOfArray( a, index-1);
+
     }
 }
